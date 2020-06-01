@@ -147,7 +147,7 @@ function draw() {
 
   if(d >= 2){
     push();
-    translate(12, cactusPositionY, 200);
+    translate(9, cactusPositionY, 200);
     if (d % 2 == 0){
       rotateX(-PI/2);
     } else if (d % 2 == 1) {
